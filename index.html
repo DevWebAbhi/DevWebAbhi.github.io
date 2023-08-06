@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio website</title>
+  <link rel="stylesheet" href="style.css">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+  integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+  integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/fontawesome.min.css"
+    integrity="sha512-cHxvm20nkjOUySu7jdwiUxgGy11vuVPE9YeK89geLMLMMEOcKFyS2i+8wo0FOwyQO/bL8Bvq1KMsqK4bbOsPnA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <!-- ------------------HOME SECTION START------------------------ -->
+
+
+  <div id="header">
+    <div class="container">
+
+      <nav id="nav-menu" class="navbar" >
+        <img src="images/name-2.png" alt="mynameimage" class="logo home-img" style="width: 10%;">
+
+        <ul id="sidemenu">
+          <li><a class="nav-link home" href="#home">HOME</a></li>
+          <li><a class="nav-link about" href="#about">ABOUT</a></li>
+          <li><a class="nav-link skills" href="#skills">SKILLS</a></li>
+          <li><a class="nav-link projects" href="#projects">PROJECTS</a></li>
+          <li><a href="#githubs">GITHUB</a></li>
+          <li><a  class="nav-link contact" href="#contact">CONTACT</a></li>
+          <li><button id="resume-button-1" onclick="resume()"><a id="resume-link-1" class="nav-link resume" href="files\Abhishek_Yalla_Resume.pdf" download="" target="_blank">RESUME</a></button></li>
+          <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+      </nav>
+    </div>
+  </div>
+
+      <div id="home" class="header-text">
+
+            <div class="container">
+              <div class="row">
+               
+                <div class="about-col-2">
+                  <h1 >Hi, I'm <span class="type"> Abhishek Tiwari</span> from Katni, Madhya Pradesh.</h1>
+        <p>A Full Stack Web Developer with specialization in Javascript, React, HTML, CSS<br/>Enthusiastic in learning new things.
+        </p>
+        <div id="btn-adj">
+        <button id="resume-button-2" onclick="resume()"><a id="resume-link-2" href="files\Abhishek_Tiwari_Resume.pdf" download="" target="_blank" style="font-size: 30px; color: white;">Resume</a></button>  
+      </div>
+                </div>
+                <div class="about-col-1 imk">
+                  <img src="images\gifprofileimage.gif" alt="logoimage">
+                </div>
+        
+              </div>
+            </div>
+            
+      </div>
+
+    
+  <!-- ************************About************************ -->
+  <div id="about" class="about section">
+    <div class="container">
+      <h1 class="sub-title">About Me</h1>
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/abhiprofile.jpg" alt="">
+        </div>
+        <div class="about-col-2">
+          <h1 id="user-detail-name">Abhishek</h1>
+          <h2 id="user-detail-intro">
+            Hey My name is Abhishek, I live in Madhya Pradesh, India. I am a Full Stack Web Developer proficient in HTML, 
+            CSS, Javascript, React. Adaptable to learn new technologies quickly and efficiently.
+            Aims to leverage knowledge, while facilitating organisation in achieving functional goals.
+      </h2>
+          
+         
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- -------------------------------------Skills------------------------------- -->
+
+
+  <div id="skills">
+    <div class="container skills-card">
+      <h1 class="sub-title">TECH STACK </h1>
+      <div class="skills-list">
+        <div class="skill">
+          <img class="skills-card-img"
+          src="skill-logo/html-5.png"
+            alt="">
+            <h5 class="skills-card-name">HTML</h5>
+        </div>
+        <div class="skill">
+          <img class="skills-card-img"
+          src="skill-logo/css3.png"  
+          alt="">
+            <h5 class="skills-card-name">CSS </h5>
+        </div>
+        <div class="skill">
+          <img class="skills-card-img"
+          src="skill-logo/javascript.png"
+            alt="">
+            <h5 class="skills-card-name">JavaScript</h5>
+        </div>
+        
+        <div class="skill">
+			<img class="skills-card-img"
+			src="skill-logo/react.png"
+			  alt="">
+			  <h5 class="skills-card-name">React</h5>
+		  </div>
+        
+        
+
+        
+        
+        <div class="skill">
+          <img class="skills-card-img" src="skill-logo/dsa.png" alt="">
+          <h5 class="skills-card-name">DSA</h5>
+        </div>
+
+        
+        <div class="skill">
+          <img class="skills-card-img" src="skill-logo/git.png" alt="">
+          <h5 class="skills-card-name">GIT</h5>
+        </div>
+
+        
+        <div class="skill">
+          <img class="skills-card-img" src="skill-logo/vscode.png" alt="">
+          <h5 class="skills-card-name">VS Code</h5>
+        </div>
+
+        
+        <div class="skill">
+          <img class="skills-card-img" src="skill-logo/netlify.png" alt="">
+          <h5 class="skills-card-name">Netlify</h5>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- -----------------------------projects section----------------------------- -->
+
+
+
+  <div id="projects">
+    <div class="container ">
+      <h1 class="sub-title">My Projects</h1>
+      <div class="project-list  ">
+     
+        <div class="project project-card">
+         
+          <div class="layer">
+
+            <h2 class="project-title">Bluefly</h2>
+            <h3 class="project-tech-stack">Tech Stack -> HTML,CSS,Javascript</h3>
+            <p class="project-description">Bluefly is an fashion e-commerce website where you can buy  branded clothings </p>
+            <a class="project-github-link" href="" target="_blank"><i
+                class="fa-brands fa-github"></i>Github</a>
+            <a class="project-deployed-link" href="" target="_blank"><i
+                class="fa-solid fa-link"></i>Presentation</a>
+          </div>
+        </div>
+
+        <div class="project project-card">
+          
+          <div class="layer">
+            <h2 class="project-title">PlantOrder</h2>
+            <h3 class="project-tech-stack">PlantOrder -> is an Nurcery e-commerce website where you can buy  varities of plants</h3>
+            <p class="project-description">Developed an application of Amusement park where you can take part in different activites</p>
+            <a class="project-github-link" href="" target="_blank"><i
+                class="fa-brands fa-github"></i>Github</a>
+            <a class="project-deployed-link" href="" target="_blank"><i
+                class="fa-solid fa-link"></i>Presentation</a>
+          </div>
+        </div>
+
+       
+       
+
+     
+
+       
+
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ---------------------Github section-------------------------- -->
+
+  <div id="githubs">
+    <div class="container react-activity-calendar">
+      <h1 class="sub-title">GitHub Activity-Calendar</h1>
+      <div class="github-list">
+       
+        
+        <div class="github">
+          <!-- <h1>GitHub React-Activity-Calendar</h1> -->
+          <img
+          id="github-streak-stats"
+          src="https://github-readme-streak-stats.herokuapp.com?user=DevWebAbhi&theme=radical&hide_border=true&border_radius=6.5&date_format=M%20j%5B%2C%20Y%5D"
+          alt="streakstat"
+        />
+
+        </div>
+        <div class="github" id="tops">
+          <img
+        id="github-top-langs"
+        src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevWebAbhi&theme=outrun"
+        alt="top_languages"
+      />
+
+        </div>
+        
+
+        <div class="github">
+          <img
+        id="github-stats-card"
+        src="https://github-readme-stats.vercel.app/api?username=DevWebAbhi&count_private=true"
+        alt="stat-card"
+      />
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <!-- -----------------------contact-form section--------------------- -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+
+          <h1 class="sub-title">Contact me</h1>
+          <!-- <i class="fa-solid fa-paper-plane"></i> -->
+          <!-- <p> <a id="contact-email" href="nehaas1900@gmail.com"></a>contact@example.com</p>
+          <p><a id="contact-phone" href="#"><i class="fa-sharp fa-solid fa-phone"></i></a>098765567</p> -->
+          <a id="contact-phone" href="#">Mobile<i class="fa-solid fa-phone">7581840986</i></a>
+      <a id="contact-email" href="mailto:tiwariabhishek889912@gmail.com">Email<i class="fa-solid fa-envelope"></i></a>
+      <section id="resume">
+        <a id="resume-link-1" href="files\Abhishek_Tiwari_Resume.pdf" download="">Download CV</a>
+        <!-- <button id="resume-button-1"></button> -->
+      </section>
+          <div class="social-icons">
+            <a  id="contact-github" href="https://github.com/DevWebAbhi" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a id="contact-linkedin" href="https://www.linkedin.com/in/abhishek-tiwari-b4ab78262/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+          <!-- <a href="files/NEHA_JAISWAL_Resume.pdf" download class="btn btn2" target="_blank">Download CV</a> -->
+        </div>
+        <div class="contact-right">
+          <form action="mailto:tiwariabhishek889912@gmail.com">
+            <input type="text" name="Name" placeholder="Your name" required>
+            <input type="email" name="email" placeholder="Your email" required>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="your message"></textarea>
+            <button type="submit" class="btn btn2">submit</button>
+          </form>
+
+
+        </div>
+      </div>
+    </div>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+    integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+  
+ 
+  
+  
+  </div>
+
+  <!-- -----------------------carousel------------------------------------- -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript">
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: false,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            dots: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 2
+                }
+            }
+        })
+    </script>
+
+
+
+
+
+
+
+
+
+
+<!-- --------------------resume-------------- -->
+  <!-- <section id="resume">
+    <a id="resume-link-1" href="files/NEHA_JAISWAL_Resume.pdf" download="">Resume</a>
+    <button id="resume-button-1"></button>
+  </section> -->
+
+  <div class="copyright">
+    <p>Copyright &#169 Made with <i class="fa-solid fa-heart"></i> by Abhishek Tiwari</p>
+  </div>
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu() {
+      sidemenu.style.right = "0";
+
+    }
+    function closemenu() {
+      sidemenu.style.right = "-200px";
+
+    }
+  </script>
+
+
+
+</body>
+
+
+</html>
+
+
+<script>
+  // document.getElementById('resume-button-1').addEventListener("click",()=>{
+  //   console.log("OPENinig.....")
+  //   window.open("https://drive.google.com/file/d/1on3YcDE-Gd9zsxVNk8aSoNg-YeV-DJuQ/view?usp=sharing", "_blank");
+  // })
+
+  // document.getElementById('resume-link-1').addEventListener("click",()=>{
+  //   console.log("OPENinig.....")
+  //   window.open("https://drive.google.com/file/d/1on3YcDE-Gd9zsxVNk8aSoNg-YeV-DJuQ/view?usp=sharing", "_blank");
+  // })
+
+  // document.getElementById('resume-button-2').addEventListener("click",()=>{
+  //   console.log("OPENinig.....")
+  //   window.open("https://drive.google.com/file/d/1on3YcDE-Gd9zsxVNk8aSoNg-YeV-DJuQ/view?usp=sharing", "_blank");
+  // })
+
+  function resume(){
+    window.open("https://drive.google.com/file/d/1on3YcDE-Gd9zsxVNk8aSoNg-YeV-DJuQ/view?usp=sharing", "_blank");
+  }
+</script>

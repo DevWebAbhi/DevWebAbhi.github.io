@@ -1,0 +1,13 @@
+#nav-menu>ul{
+    display: flex;
+    justify-content: space-around;
+}
+.home__content grid{
+    display: flex;
+    border: solid;
+    
+   
+}
+.home{
+    border: solid;
+}
