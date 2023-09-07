@@ -13,7 +13,7 @@ html,body{
     overflow-x: hidden;
 }
 body {
-    background-color: #080808;
+    background-color: #3d0000;
     color: #ffffff;
     /* color: orange; */
 }
@@ -29,7 +29,7 @@ body {
     position: fixed;
     width: 100%;
     padding: 15px 0;
-    background: black;
+    background: rgb(218, 0, 0);
     font-family: sans-serif;
 }
 
@@ -40,7 +40,7 @@ body {
 }
 
 .navbar .logo a {
-    color: #fff;
+    color: #ffffff;
     /* color: #ff004f; */
 
     font-size: 35px;
@@ -272,6 +272,7 @@ nav ul li a:hover::after {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .skills-list {
@@ -314,7 +315,7 @@ nav ul li a:hover::after {
 /* ---------------------projects-section------------------------------ */
 #projects {
     padding: 50px 0;
-    scroll-margin: 100px;
+   
 }
 
 .project-list {
@@ -327,8 +328,8 @@ nav ul li a:hover::after {
 
 .project {
     border-radius: 10px;
-    position: relative;
-    overflow: hidden;
+   
+   
     height: auto; /* Add this line */
 }
 
@@ -513,7 +514,7 @@ nav .fas {
     display: none;
 }
 
-@media screen and (min-width: 100px) and (max-width: 699px){
+@media screen and (min-width: 100px) and (max-width: 772px){
 
     #home {
         width: auto;
@@ -627,6 +628,14 @@ nav .fas {
             object-fit: cover;
             border-radius: 10px;
         }
-    
+
+        .project-card{
+            margin-top: 8rem;
+            margin-bottom: 2rem;
+        }
+        #githubs{
+            margin-top: 3rem;
+        }
+        
 }
 
