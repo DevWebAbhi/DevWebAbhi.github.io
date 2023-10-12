@@ -13,7 +13,11 @@ html,body{
     overflow-x: hidden;
 }
 body {
-    background-color: #3d0000;
+    background-color: #4056A1;
+    background-image: url('./Background.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #ffffff;
     /* color: orange; */
 }
@@ -29,8 +33,10 @@ body {
     position: fixed;
     width: 100%;
     padding: 15px 0;
-    background: rgb(218, 0, 0);
+    background-color: #123C69;
     font-family: sans-serif;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .navbar .max-width {
@@ -101,6 +107,10 @@ nav {
     padding: 10px 5px;
 }
 
+.skills-card-img{
+    height: 8rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
 
 .logo {
     width: 75px;
@@ -194,11 +204,13 @@ nav ul li a:hover::after {
 
 .about-col-1 {
     flex-basis: 35%;
+    
 }
 
 .about-col-1 img {
     width: 75%;
     border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .about-col-2 {
@@ -209,6 +221,7 @@ nav ul li a:hover::after {
     font-size: 60px;
     font-weight: 600;
     color: #fff;
+    margin-bottom: 5rem;
 }
 
 .tab-titles {
@@ -277,11 +290,17 @@ nav ul li a:hover::after {
 
 .skills-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 40px;
     margin-top: 50px;
 }
 
+.skills-list1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    margin-top: 50px;
+}
 .skill {
     border-radius: 10px;
     display: block;
@@ -320,7 +339,7 @@ nav ul li a:hover::after {
 
 .project-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 40px;
     margin-top: 50px;
 
@@ -336,14 +355,31 @@ nav ul li a:hover::after {
 .project img {
     width: 100%;
     border-radius: 10px;
+    height: 30rem;
     display: block;
-   
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-
+.project-description{
+    min-height: 5rem;
+}
 .project a {
     text-align: center;
     margin: auto;
     justify-content: center;
+    font-size: 2rem;
+    font-weight: 900;
+    
+}
+.project-github-link{
+    color: #6dc0f7;
+}
+
+.project-deployed-link{
+    color: rgb(223, 139, 139);
+}
+
+.layer{
+    margin-top: 2rem;
 }
 
 /* ----------------------github section---------------------------------- */
@@ -453,7 +489,7 @@ form .btn2 {
     font-size: 18px;
     margin-top: 20px;
     cursor: pointer;
-
+    border-radius: 10px;
 
 }
 
@@ -477,7 +513,7 @@ form .btn2 {
     display: block;
     height: 50px;
     width: auto;
-    background: black;
+    background: #123C69;
     text-align: center;
     padding: 5px 10px;
     /* position: absolute; */
@@ -493,7 +529,7 @@ form .btn2 {
 }
 
 #resume-button-1{
-    background-color: black;
+    background-color:#123C69;
     border: none;
 }
 
@@ -503,7 +539,7 @@ form .btn2 {
 
 #contact-phone ,#contact-email{
     text-decoration: none;
-    color: #ff004f;
+    color: #57a8ff;
     font-size: 15px;
     padding: 5px 10px;
 
@@ -620,7 +656,7 @@ nav .fas {
             padding: 1rem;
         }
         #btn-adj button{
-            background-color: tomato;
+            background-color: #123C69;
         }
         .project img {
             width: 100%;
@@ -637,6 +673,30 @@ nav .fas {
         }
         #githubs{
             margin-top: 3rem;
+        }
+
+        .skills-list {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 40px;
+            margin-top: 50px;
+        }
+
+        .skills-list1 {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 40px;
+            margin-top: 50px;
+        }
+        .project-list {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 40px;
+            margin-top: 50px;
+        
+        }
+        .project{
+            margin-bottom: 3.5rem;
         }
         
 }
