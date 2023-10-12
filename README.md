@@ -26,5 +26,7 @@ Throughout my career, I've had the privilege of working on diverse projects that
 
 Thank you for visiting my portfolio, and I look forward to the possibility of collaborating with you on your next digital project!
 
+<h1>Contact</h1>
 Email : tiwariabhishek889912@gmail.com
+<br/>
 Linkdin : https://www.linkedin.com/in/abhishek-tiwari-b4ab78262/
